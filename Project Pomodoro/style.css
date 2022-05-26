@@ -1,0 +1,107 @@
+body {
+  text-align: center;
+  font-family:  'Macondo', cursive;
+  margin: none;
+
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(74,152,242,1) 83%, rgba(0,174,255,1) 100%);
+}
+
+h1{
+  font-size: 6em;
+  color: #ff9100;
+
+  margin-top: 0.1em;
+  margin-bottom: 0.4em;
+}
+
+#box_up {
+  background-color: rgba(0, 0, 0, 0.445);
+  margin: auto 30em;
+  padding: 1em;
+  border: none;
+  border-radius: 2em;
+}
+
+#box_up #timer {
+  color: #ff9100;
+  font-size: 3em;
+  margin-bottom: 1em;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#dashboard {
+  background-color: rgba(0, 0, 0, 0.445);
+  margin: 1.5em 30em;
+  padding: 1em;
+  border: none;
+  border-radius: 2em;
+}
+
+#start {
+  display: flex;
+  justify-content: center;
+  gap: 7em;
+}
+
+button{
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  border-radius: 1em;
+  border: none;
+
+  background: #ff9100;
+}
+
+button:hover{
+  background: #6e3f01;
+}
+
+#play, #reload {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 0.25em;
+
+  height: 6em;
+  width: 9em;
+
+  align-items: center;
+  margin-top: 2em;
+  cursor: pointer;
+}
+
+#play img {
+  height: 2.5em;
+  width: 2.5em;
+}
+
+#reload img{
+  height: 3em;
+  width: 3em;
+}
+
+#adapt{
+  display: flex;
+  justify-content: center;
+  gap: 7em;
+
+  margin-bottom: 2em;
+  margin-top: 3.7em;
+}
+
+#adapt button{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 0.25em;
+
+  height: 6em;
+  width: 9em;
+
+  align-items: center;
+  cursor: pointer;
+}
+
+#adapt button img{
+  height: 2.5em;
+  width: 2.5em;
+}
